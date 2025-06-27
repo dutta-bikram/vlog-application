@@ -1,0 +1,22 @@
+# Node modules (backend + frontend)
+node_modules/
+client/node_modules/
+
+# dotenv and local environment files
+.env
+*.env
+
+# MongoDB local database folder (optional, since you're using db/)
+db/
+
+# build files (only if you build React for production)
+client/build/
+
+# Log files
+logs
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
